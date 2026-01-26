@@ -1,0 +1,298 @@
+.cardLink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.productCard{
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  border-radius: 12px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 12px;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.topCard,
+.hoveredTopCard{
+  width: 100%;
+  aspect-ratio: 11 / 10;
+  background-color: #ffb4c4;
+  border-radius: 16px;
+  border: 1px solid black;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.unHoveredImage{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: rotate(20deg) scale(0.9) translateY(6%);
+  transform-origin: center;
+  display: block;
+}
+
+.hoveredImage{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transform: rotate(0deg) scale(1);
+  transform-origin: center;
+  display: block;
+}
+
+.bottomCard{
+  width: 100%;
+  flex: 1;
+  border-radius: 16px;
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  min-width: 0;
+}
+
+.cardName{
+  font-family: "Climate Crisis", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 12px;
+  line-height: 1.2;
+  min-height: calc(2 * 1.6em);
+  overflow: hidden;
+}
+
+.cansSection{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: -18px;
+}
+
+.cansSectionTitle{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Arimo';
+  color: white;
+  white-space: nowrap;
+}
+
+.cansOptions{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 16px;
+  width: min(220px, 55%);
+  padding: 8px;
+  display: flex;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.cansOptions button{
+  width: 50%;
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-family: 'Arimo';
+  color: white;
+  cursor: pointer;
+}
+
+.firstButton{
+  border-right: 1px solid white !important;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.secondButton{
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.firstButtonUnchosen{
+  border-right: 1px solid white !important;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.secondButtonUnchosen{
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.totalSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.totalSum{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Arimo';
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -12px;
+}
+
+.totalButton{
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.cartButton{
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Arimo';
+  color: black;
+  border: none;
+  background-color: #ffb4c4;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px){
+  .productCard{
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .topCard,
+  .hoveredTopCard{
+    border-radius: 14px;
+    padding: 14px;
+  }
+
+  .cardName{
+    font-size: 20px;
+  }
+
+  .cansOptions{
+    width: min(200px, 60%);
+  }
+
+  .totalSection{
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 768px){
+  .productCard{
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .topCard,
+  .hoveredTopCard{
+    border-radius: 14px;
+    padding: 16px;
+  }
+
+  .bottomCard{
+    gap: 24px;
+  }
+
+  .cardName{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: calc(2 * 1.5em);
+  }
+
+  .cansSectionTitle{
+    font-size: 14px;
+  }
+
+  .cansOptions{
+    width: 45%;
+    padding: 6px;
+  }
+
+  .firstButton,
+  .secondButton{
+    font-size: 18px;
+  }
+
+  .firstButtonUnchosen,
+  .secondButtonUnchosen{
+    font-size: 15px;
+  }
+
+  .totalSum{
+    font-size: 14px;
+  }
+
+  .cartButton{
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 420px){
+  .topCard,
+  .hoveredTopCard{
+    aspect-ratio: 1 / 1;
+    padding: 18px;
+  }
+
+  .unHoveredImage{
+    transform: rotate(20deg) scale(0.85) translateY(8%);
+  }
+
+  .cardName{
+    font-size: 16px;
+    min-height: calc(2 * 1.4em);
+  }
+
+  .cansSection{
+    gap: 8px;
+  }
+
+  .cansOptions{
+    width: 70%;
+  }
+
+  .cartButton{
+    font-size: 14px;
+    padding: 9px;
+    border-radius: 14px;
+  }
+}
+
+@media (hover: none){
+  .hoveredImage,
+  .unHoveredImage{
+    transform: rotate(0deg) scale(1);
+  }
+}
