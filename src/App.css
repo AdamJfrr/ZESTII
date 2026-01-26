@@ -12,6 +12,6 @@ html, body, #root {
   min-height: 0;
   display: flex;
 }
-* {
+button {
   -webkit-tap-highlight-color: transparent;
 }

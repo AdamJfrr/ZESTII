@@ -183,7 +183,6 @@
 @media (max-width: 768px) {
   .productPage {
     flex-direction: column;
-    overflow-y: hidden;
   }
 
   .leftSide {
