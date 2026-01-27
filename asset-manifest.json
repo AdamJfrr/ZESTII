@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ZESTII/static/css/main.b4a28746.css",
+    "main.css": "/ZESTII/static/css/main.325b899a.css",
     "main.js": "/ZESTII/static/js/main.ad491c19.js",
     "static/js/453.5de586df.chunk.js": "/ZESTII/static/js/453.5de586df.chunk.js",
     "static/media/grapefruit.png": "/ZESTII/static/media/grapefruit.913719a25a41727d8227.png",
@@ -9,12 +9,12 @@
     "static/media/berry.png": "/ZESTII/static/media/berry.1baba5a2b898ef2be47e.png",
     "static/media/outline.png": "/ZESTII/static/media/outline.6c10e873e4898f9bb626.png",
     "index.html": "/ZESTII/index.html",
-    "main.b4a28746.css.map": "/ZESTII/static/css/main.b4a28746.css.map",
+    "main.325b899a.css.map": "/ZESTII/static/css/main.325b899a.css.map",
     "main.ad491c19.js.map": "/ZESTII/static/js/main.ad491c19.js.map",
     "453.5de586df.chunk.js.map": "/ZESTII/static/js/453.5de586df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4a28746.css",
+    "static/css/main.325b899a.css",
     "static/js/main.ad491c19.js"
   ]
 }
