@@ -182,12 +182,13 @@
 
 @media (max-width: 768px) {
   .productPage {
+    display: flex;
     flex-direction: column;
   }
 
   .leftSide {
     width: 100%;
-    height: 48vh;
+    height: 50vh;
     border-right: none;
     border-bottom: 1.5px solid black;
   }
@@ -199,6 +200,7 @@
   .rightSide {
     width: 100%;
     padding: 16px;
+    height: 50vh;
     box-sizing: border-box;
     padding-bottom: 16px;
   }
@@ -231,7 +233,6 @@
 
   .addToCart {
     width: 100%;
-    margin-top: 40px;
     padding: 16px;
     box-sizing: border-box;
     gap: 14px;
