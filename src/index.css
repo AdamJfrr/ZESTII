@@ -17,4 +17,5 @@ input[type="button"],
 input[type="submit"] {
   -webkit-appearance: none;
   appearance: none;
+  color:black;
 }
