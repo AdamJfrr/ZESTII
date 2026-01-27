@@ -200,7 +200,6 @@
   .rightSide {
     width: 100%;
     padding: 16px;
-    height: 50vh;
     box-sizing: border-box;
     padding-bottom: 16px;
   }
@@ -251,8 +250,15 @@
 
 
 @media (max-width: 480px) {
+
+  .productPage {
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+  }
+
   .leftSide {
-    height: 42vh;
+    height: 48vh;
   }
 
   .rightSide {
