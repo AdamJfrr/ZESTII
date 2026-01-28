@@ -1,7 +1,7 @@
-import  wildberry from '../images/berry.png';
-import tropicalpineapple from '../images/pineapple.png';
-import lemonandlime from '../images/lime.png';
-import rubygrapefruit from '../images/grapefruit.png';
+import  wildberry from '../images/berry.webp';
+import tropicalpineapple from '../images/pineapple.webp';
+import lemonandlime from '../images/lime.webp';
+import rubygrapefruit from '../images/grapefruit.webp';
 
 const cans = [
   {id:1, source: wildberry ,name:'Wild Berry', description:'Wild Berry is a refreshing, caffeine-free beverage made with a vibrant blend of natural berry flavors. Totally vegan and plant-based, it delivers a clean, fruity taste you can enjoy anytime, guilt-free.'},

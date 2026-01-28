@@ -1,10 +1,10 @@
 import classes from './IndexPage.module.css';
 import { useEffect, useRef, useState } from 'react';
-import outline from '../images/outline.png';
-import  wildberry from '../images/berry.png';
-import tropicalpineapple from '../images/pineapple.png';
-import lemonandlime from '../images/lime.png';
-import rubygrapefruit from '../images/grapefruit.png';
+import outline from '../images/outline.webp';
+import  wildberry from '../images/berry.webp';
+import tropicalpineapple from '../images/pineapple.webp';
+import lemonandlime from '../images/lime.webp';
+import rubygrapefruit from '../images/grapefruit.webp';
 import {Link} from 'react-router-dom';
 import FlavorBox from '../components/indexPage/FlavorBox';
 import ProductCard from '../components/product/ProductCard';
@@ -18,7 +18,7 @@ const IndexPage = () => {
   const hoverHandler = (name) => {
     const lowerCaseName = name.toLowerCase().replace(/[^a-z0-9]/g, '');
     console.log()
-    setImageName(prev=>imagesObject[lowerCaseName]);
+    setImageName(imagesObject[lowerCaseName]);
   }
   return (
     <div className={classes.indexPage}>
